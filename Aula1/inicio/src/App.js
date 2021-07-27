@@ -1,22 +1,36 @@
+import "./app.css";
+
 function App() {
   return (
-    <div className="App">
-      <p>Mbora Codar</p>
-      <MainNav />
+    <div className="container">
+      <Header />
+      <p>Manuel Francisco</p>
+      <Button />
     </div>
   );
 }
-const Button = () => {
-  return <button>Clique aqui !!!</button>;
-};
 
-const MainNav = () => {
+const Button = () => {
   return (
-    <nav>
-      <a href> Link 1</a>
-      <Button />
-    </nav>
+    <div className="container-botao">
+      <button className="botao-custom">Iniciar</button>
+    </div>
   );
 };
 
+const Header = () => {
+  return (
+    <div className="container-header">
+      <div>
+        <h1>LOGO</h1>
+      </div>
+      <ul className="style-lista">
+        <li>Link 1</li>
+        <li>Link 2</li>
+        <li>Link 3</li>
+        <li>Link 4</li>
+      </ul>
+    </div>
+  );
+};
 export default App;

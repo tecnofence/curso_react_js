@@ -1,0 +1,25 @@
+.banner {
+  background: url("assets/img/banner.svg");
+  background-size: cover;
+  height: 200px;
+}
+.main {
+  height: 60vh;
+  color: black;
+}
+
+.container-cards {
+  display: flex;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #000;
+  color: white;
+  height: 200px;
+}
+
+.socialMedia {
+  display: flex;
+}
